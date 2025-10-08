@@ -1,4 +1,4 @@
-﻿# Data Warehouse and Analytics Project
+# Data Warehouse and Analytics Project
 
 Building a modern data warehouse with SQL Server, including ETL processes, data modeling, and analytics.
 
@@ -14,8 +14,8 @@ This project implements the **Medallion Architecture**, a layered approach to or
 
 This structure ensures data quality, scalability, and efficient data processing.
 
-> ![Medallion Architecture Diagram](https://via.placeholder.com/600x200?text=Medallion+Architecture+Diagram)
-> *(Placeholder image: Replace with actual architecture diagram)*
+> ![Medallion Architecture Diagram](docs/Data%20Architecture.jpg)
+> *(Medallion Architecture as implemented in this project)*
 
 ---
 
@@ -55,13 +55,28 @@ To run and develop this project, you will need:
 
 ## 📂 Repository Structure
 
-- `/etl/` - ETL scripts and orchestration logic
-- `/models/` - Data models and schema definitions
-- `/analytics/` - Sample reports and dashboards
-- `/docs/` - Documentation and architecture diagrams
+data-warehouse-project/
+│
+├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
+│
+├── docs/                               # Project documentation and architecture details
+│   ├── Data Architecture.drawio        # Draw.io file shows the project's architecture
+│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
+│   ├── Data Flow Diagram.drawio        # Draw.io file for the data flow diagram
+│   ├── Data Model.drawio               # Draw.io file for data models (star schema)
+│   ├── Data Integration Model.drawio   # Draw.io file for data integration models (how tables are related)
+│
+├── scripts/                            # SQL scripts for ETL and transformations
+│   ├── bronze/                         # Scripts for extracting and loading raw data
+│   ├── silver/                         # Scripts for cleaning and transforming data
+│   ├── gold/                           # Scripts for creating analytical models
+│
+├── tests/                              # Test scripts and quality files
+│
+├── README.md                           # Project overview and instructions
+├── LICENSE                             # License information for the repository
+└── .gitignore                          # Files and directories to be ignored by Git
 
 ---
 
-## 📧 Contact
 
-For questions or contributions, please open an issue or contact the repository owner via GitHub.
