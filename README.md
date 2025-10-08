@@ -71,6 +71,10 @@ data-warehouse-project/
 │   ├── Data Model.drawio               # Draw.io file for data models (star schema)
 │   ├── Data Integration Model.drawio   # Draw.io file for data integration models (how tables are related)
 │
+├── powerbi/                            # Power BI reports and documentation
+│   ├── Power BI Study.pbix             # Power BI report file with interactive dashboards and visualizations
+│   ├── Power BI Study.pdf              # PDF documentation of Power BI report design and insights
+│
 ├── scripts/                            # SQL scripts for ETL and transformations
 │   ├── bronze/                         # Scripts for extracting and loading raw data
 │   ├── silver/                         # Scripts for cleaning and transforming data
