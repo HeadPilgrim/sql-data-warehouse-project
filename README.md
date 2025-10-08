@@ -76,3 +76,12 @@ data-warehouse-project/
 ├── LICENSE                             # License information for the repository
 └── .gitignore                          # Files and directories to be ignored by Git
 ```
+---
+## 📜 License
+
+This project is licensed under the MIT License.  
+You are free to use, modify, and distribute this software in both private and commercial projects, provided that the original copyright and license notice are included.
+
+See the `LICENSE` file for full details.
+
+---
