@@ -31,6 +31,12 @@ This repository demonstrates the end-to-end process of building a modern data wa
 The project is suitable for organizations seeking to modernize their data infrastructure and leverage advanced analytics.
 
 ---
+## 📈 Power BI Dashboards
+Interactive dashboards built on the Gold layer provide business intelligence across key operational areas:
+- **Customer Performance, Health, and Segmentation**: Tracks customer metrics, lifecycle stages, and behavioral patterns to identify high-value segments and retention opportunities.
+- **Product Performance & Profitability**: Analyzes product-level sales, margins, and trends to optimize inventory and pricing strategies.
+- **Business Health & Trends**: Monitors overall business KPIs, revenue patterns, and growth indicators for strategic decision-making.
+---
 
 ## 📝 Project Requirements
 
