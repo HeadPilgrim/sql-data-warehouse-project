@@ -23,7 +23,7 @@ This structure ensures data quality, scalability, and efficient data processing.
 
 This repository demonstrates the end-to-end process of building a modern data warehouse using SQL Server. Key features include:
 
-- **ETL Processes**: Automated extraction, transformation, and loading of data from multiple sources.
+- **ETL Processes**: Extraction, extraction, transformation, and loading of data from multiple sources.
 - **Data Modeling**: Implementation of star and snowflake schemas for optimized querying.
 - **Analytics**: Creation of dashboards and reports to deliver actionable business insights.
 - **Scalability**: Designed to handle large volumes of data efficiently.
