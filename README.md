@@ -50,11 +50,10 @@ To run and develop this project, you will need:
 3. Load sample data into the Bronze layer.
 4. Run ETL scripts to populate Silver and Gold layers.
 5. Explore analytics dashboards and reports.
-
+   
 ---
-
 ## 📂 Repository Structure
-
+```
 data-warehouse-project/
 │
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
@@ -76,7 +75,4 @@ data-warehouse-project/
 ├── README.md                           # Project overview and instructions
 ├── LICENSE                             # License information for the repository
 └── .gitignore                          # Files and directories to be ignored by Git
-
----
-
-
+```
